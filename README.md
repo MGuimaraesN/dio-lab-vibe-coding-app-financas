@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Finanças Pessoais do Victor com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -70,16 +70,152 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+https://conversa-ease-finance.lovable.app
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+PRD refinado no Copilot Web:
+
+```markdown
+# PRD – Aplicativo de Organização de Finanças Pessoais com Design Universal
+
+## 1. Contexto
+O aplicativo será uma solução de organização financeira baseada em conversas em linguagem natural, com foco em Design Universal.
+Isso significa que desde o início o produto será pensado para ser usado por pessoas com diferentes habilidades, idades e contextos, sem necessidade de adaptações especiais.
+
+## 2. Problema
+- Dificuldade atual: Apps de finanças exigem muita entrada manual e pouca personalização.  
+- Impacto: Usuários iniciantes ou com necessidades específicas desistem rapidamente por acharem o processo burocrático ou pouco acessível.  
+- Solução proposta: Uma experiência conversacional inclusiva, que automatiza registros e oferece dicas práticas de economia, com design pensado para todos.
+
+## 3. Público-Alvo
+- Pessoas que nunca usaram apps de finanças ou desistiram por serem complicados.  
+- Usuários que desejam simplicidade e praticidade no controle de gastos.  
+- Pessoas com diferentes níveis de habilidade tecnológica, incluindo usuários que dependem de recursos de acessibilidade (ex.: leitores de tela, comandos de voz).  
+- Faixa etária principal: jovens adultos e adultos que buscam começar a organizar suas finanças pessoais.
+
+## 4. Funcionalidades-Chave
+1. Registro de gastos via chat  
+   - Inclusivo: suporte a texto e voz.  
+   - Exemplo: “Gastei R$50 no mercado” → o app registra automaticamente.  
+
+2. Classificação automática de transações  
+   - Categorias simples e intuitivas.  
+   - Feedback claro para correções.  
+
+3. Metas financeiras  
+   - Definição acessível e acompanhamento com alertas visuais e textuais.  
+   - Flexibilidade para diferentes perfis de usuários.  
+
+4. Agente Financeiro com dicas de economia  
+   - Recomendações personalizadas e comunicadas de forma clara.  
+   - Linguagem simples, sem jargões técnicos.  
+
+5. Relatórios simples e personalizados  
+   - Gráficos coloridos + descrições alternativas para leitores de tela.  
+   - Interface responsiva para diferentes dispositivos.  
+
+## 5. Princípios de Design Universal Aplicados
+- Uso Equitativo: experiência útil para todos, sem exclusão.  
+- Flexibilidade no Uso: múltiplas formas de interação (voz, texto, toque).  
+- Uso Simples e Intuitivo: comandos em linguagem natural.  
+- Informação Perceptível: relatórios com texto, gráficos e descrições alternativas.  
+- Tolerância ao Erro: possibilidade de editar ou desfazer registros.  
+- Baixo Esforço Físico: poucos cliques e comandos curtos.  
+- Tamanho e Espaço Adequados: interface responsiva e adaptável a diferentes telas.
+
+## 6. MVP – Plano de Entrega
+### Principais Telas
+- Tela de Conversa: registro de gastos e dicas acessíveis.  
+- Tela de Metas: definição e acompanhamento inclusivo.  
+- Tela de Relatórios: visão geral com gráficos simples e descrições alternativas.  
+
+### Recursos Necessários
+- Motor de NLP para interpretar mensagens.  
+- Sistema de classificação automática de transações.  
+- Banco de dados simples para armazenar gastos e metas.  
+- Módulo de relatórios com gráficos acessíveis.  
+- Recursos de acessibilidade integrados (suporte a leitores de tela, comandos de voz).  
+
+### Validação Inicial
+- Teste com grupo piloto diverso: incluir usuários iniciantes e pessoas que dependem de recursos de acessibilidade.  
+- Avaliar:  
+  - Facilidade de registrar gastos via chat.  
+  - Clareza dos relatórios.  
+  - Utilidade das dicas do Agente Financeiro.  
+  - Inclusividade da experiência.  
+- Coletar feedback e ajustar antes de expandir funcionalidades.
+
+## 7. Síntese Didática
+- Design Universal: criar produtos que já nascem inclusivos, sem necessidade de adaptações.  
+- PRD: documento que organiza contexto, problema, público, funcionalidades e plano de entrega.  
+- MVP: versão mínima viável para validar a ideia.  
+- Validação: testes com usuários reais e diversos para garantir acessibilidade e utilidade.
+
+```
+Cie um App de Finanças Pessoais com base no seguinte PRD
+Preciso editar ou excluir a meta
+<img width="2555" height="917" alt="image" src="https://github.com/user-attachments/assets/e1a2da0a-887b-4a9e-992b-50c82b41808c" />
+
+<img width="2553" height="919" alt="image" src="https://github.com/user-attachments/assets/d16cc5aa-e655-4645-8da5-fd4da47ecdc0" />
+ 
+``` markdown
+# 📱 Funcionalidades do Aplicativo de Finanças Pessoais
+
+## 🔹 Registro de Gastos e Receitas
+- Entrada **conversacional**: o usuário digita ou fala frases naturais como  
+  *“Gastei R$50 no mercado”* ou *“Recebi R$3000 de salário”*.  
+- Suporte a **texto e voz**, garantindo acessibilidade.
+
+## 🔹 Classificação Automática
+- Transações são categorizadas de forma intuitiva (ex.: Alimentação, Transporte, Lazer).  
+- Feedback claro para correções, mantendo simplicidade.
+
+## 🔹 Metas Financeiras
+- Definição de objetivos de economia ou controle de gastos.  
+- Acompanhamento com alertas visuais e textuais.  
+- Flexibilidade para diferentes perfis de usuários.
+
+## 🔹 Relatórios e Visão Geral
+- **Saldo atual** e resumo de receitas e despesas.  
+- **Gráficos simples e coloridos** mostrando proporção por categoria:  
+  - Transporte (74%)  
+  - Alimentação (16%)  
+  - Lazer (10%)  
+- **Transações recentes** listadas com data e valor (ex.: supermercado – R$250).  
+- Interface responsiva e acessível para leitores de tela.
+
+## 🔹 Agente Financeiro
+- Oferece **dicas de economia** personalizadas.  
+- Linguagem simples, sem jargões técnicos.  
+- Comunicação inclusiva para diferentes níveis de habilidade tecnológica.
+
+## 🔹 Design Universal
+- Experiência pensada para todos desde o início:  
+  - Uso equitativo  
+  - Flexibilidade (voz, texto, toque)  
+  - Baixo esforço físico (poucos cliques)  
+  - Tolerância ao erro (editar ou desfazer registros)  
+  - Interface adaptável a diferentes telas
+``` 
+## Reflexão
+
+## O que funcionou bem?  
+
+A integração entre **PRD** e **prints da interface** ajudou a construir uma visão completa do aplicativo.  
+- O uso de **Markdown estruturado** facilitou a organização das ideias e deixou o conteúdo pronto para documentação.  
+- A abordagem conversacional mostrou-se eficaz para detalhar funcionalidades de forma simples e acessível.
+- 
+## O que não funcionou como o esperado?  
+
+- Algumas descrições iniciais ficaram **muito detalhadas**, exigindo ajustes para se tornarem mais objetivas.  
+- A tradução de conceitos técnicos para linguagem natural demandou cuidado para não perder clareza.  
+- A necessidade de **refinar a estrutura** em Markdown apareceu ao longo do processo.
+- 
+## O que aprendeu sobre conversar com IAs?
+É importante **dar contexto claro e estruturado** para obter respostas mais úteis e precisas.  
+- A IA pode **organizar e resumir informações complexas** em formatos práticos (como README).  
+- O diálogo iterativo permite **refinar resultados**: quanto mais específico o pedido, melhor a resposta.  
+- Conversar com IA é como **co-criar**: ela ajuda a estruturar, mas o direcionamento vem do usuário.
+
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
