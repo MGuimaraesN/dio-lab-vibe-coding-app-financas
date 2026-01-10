@@ -93,3 +93,21 @@ Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição
 Nome: Kamila Alves Rodrigues de Souza  
 Projeto: App de Organização de Finanças com Vibe Coding (DIO)  
 Objetivo: Desenvolver e documentar um conceito de aplicativo utilizando IA e a abordagem de Vibe Coding.
+
+## 🎯 Objetivo do Desafio
+
+Neste desafio, o objetivo foi criar o conceito de um **App de Organização de Finanças Pessoais com IA**, aplicando o método de **Vibe Coding**, guiando ferramentas como **Copilot** e **Lovable** por meio de **prompts claros, criativos e bem estruturados**.
+
+A proposta é transformar ideias em um projeto real, explorando a interação com a IA para:
+
+- Criar soluções de forma conversacional  
+- Definir funcionalidades com base em problemas reais  
+- Estruturar um MVP de aplicativo financeiro  
+- Desenvolver pensamento crítico e criatividade no uso de IA  
+
+Este projeto faz parte da minha construção de portfólio na DIO, com foco em demonstrar habilidades em:
+- Lógica de produto
+- Uso de Inteligência Artificial
+- Documentação técnica
+- Metodologia Vibe Coding
+
