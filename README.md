@@ -87,3 +87,9 @@ No README do seu repositório, inclua:
 ## 💬 Conclusão
 
 Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+
+## 👩‍💻 Sobre a autora
+
+Nome: Kamila Alves Rodrigues de Souza  
+Projeto: App de Organização de Finanças com Vibe Coding (DIO)  
+Objetivo: Desenvolver e documentar um conceito de aplicativo utilizando IA e a abordagem de Vibe Coding.
